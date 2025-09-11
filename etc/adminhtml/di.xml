@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Controller\Adminhtml\Index\Save">
+        <plugin name="aimanecouissi_newsletter_confirmation_suppress_customer_controller_adminhtml_index_save_plugin"
+                type="AimaneCouissi\NewsletterConfirmationSuppress\Plugin\Customer\Controller\Adminhtml\Index\SavePlugin"/>
+    </type>
+    <type name="Magento\Customer\Controller\Adminhtml\Index\InlineEdit">
+        <plugin name="aimanecouissi_newsletter_confirmation_suppress_customer_controller_adminhtml_index_inline_edit_plugin"
+                type="AimaneCouissi\NewsletterConfirmationSuppress\Plugin\Customer\Controller\Adminhtml\Index\InlineEditPlugin"/>
+    </type>
+</config>
