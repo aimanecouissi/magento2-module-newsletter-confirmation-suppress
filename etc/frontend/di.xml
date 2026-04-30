@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aimane Couissi - https://aimanecouissi.com
+ * Copyright © Aimane Couissi 2026–present. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Controller\Account\EditPost">
+        <plugin name="aimanecouissi_newsletter_confirmation_suppress_magento_customer_account_controller_edit_post_plugin"
+                type="AimaneCouissi\NewsletterConfirmationSuppress\Plugin\Magento\Customer\Controller\Account\EditPostPlugin"/>
+    </type>
+</config>

@@ -1,0 +1,41 @@
+{
+    "name": "aimanecouissi/module-newsletter-confirmation-suppress",
+    "version": "1.0.0",
+    "description": "Suppress newsletter confirmations during email changes",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "newsletter",
+        "customer",
+        "confirmation",
+        "suppress"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-newsletter-confirmation-suppress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-newsletter-confirmation-suppress/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-newsletter-confirmation-suppress"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\NewsletterConfirmationSuppress\\": ""
+        }
+    }
+}
